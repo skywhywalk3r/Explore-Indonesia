@@ -9,6 +9,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   background-color: #010A20;
+
 }
 
 .container {
@@ -194,7 +195,7 @@ p {
 }
 
 .secrets .section-title {
-  color: white;
+  color: #010A20;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -501,4 +502,85 @@ p {
 .copyright {
   opacity: 0.6;
   font-size: 14px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  padding: 40px 0;
+  background-color: #000814;
+  color: white;
+  position: relative;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.footer-links li {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.socials {
+  margin-bottom: 20px;
+}
+
+.socials a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+.footer-logo span{
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.footer-links a:hover,
+.socials a:hover {
+  color: #e61e3a;
+  transition: 0.3s;
+}
+.mountain-bg {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.mountain-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (min-width: 768px) {
+  .mountain-bg {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mountain-bg {
+    height: 500px;
+  }
+}
+.info-overlay {
+  background: rgba(0, 0, 0, 0.6); 
+  padding: 40px;
+  max-width: 450px;        
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+}
+@media (max-width: 768px) {
+  .info-overlay {
+    max-width: 100%;
+    padding: 20px;
+  }
 }
