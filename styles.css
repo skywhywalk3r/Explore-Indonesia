@@ -76,6 +76,7 @@ img {
 	border-radius: 50px;
 	font-weight: 700;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .video-card {
@@ -127,13 +128,16 @@ img {
 }
 
 .secondary-btn {
-	background: #ff2e63;
-	color: white;
-	border: none;
-	padding: 12px 30px;
-	border-radius: 10px;
-	margin-top: 15px;
-	font-weight: 600;
+	display: inline-block;  
+  background: #ff2e63;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 100px;  
+  margin-top: 30px; 
+  font-weight: 600;
+  text-decoration: none; 
+  transition: background 0.3s ease;
 }
 
 .dark-bg {
