@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -757,4 +760,74 @@ p {
 .step-img img {
 	width: 100%;
 	border-radius: 20px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px; 
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: violet; 
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: opacity 0.3s;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  .nav-links a {
+    font-size: 10px; 
+  }
+  .nav-icons {
+    display: none; 
+  }
 }
