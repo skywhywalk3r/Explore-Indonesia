@@ -1,69 +1,69 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Explore Indonesia</title>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="styles.css" />
-	</head>
-	<body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Explore Indonesia</title>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<main>
 		<header id="top" class="heror">
 			<nav class="navbar">
 				<div class="container nav-container">
-					<div class="logo">
+					<a href="#top" class="logo">
 						<img src="./images/flower.webp" alt="logo icon" />
 						<span>EXPLORE<br />INDONESIA</span>
-					</div>
-							<ul class="nav-links">
-								<ul class="nav-links">
-									<li><a href="#destinations">DESTINATIONS</a></li>
-									<li><a href="#experiences">EXPERIENCES</a></li>
-									<li><a href="#about">ABOUT</a></li>
-									<li><a href="#gallery">GALLERY</a></li>
-								</ul>
-							</ul>
+					</a>
+					<ul class="nav-links">
+						<li><a href="#destinations">DESTINATIONS</a></li>
+						<li><a href="#experiences">EXPERIENCES</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#gallery">GALLERY</a></li>
+					</ul>
+
 					<div class="nav-icons">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="16"
-							height="16"
-							fill="currentColor"
-							class="bi bi-search"
-							viewBox="0 0 16 16"
-						>
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-search" viewBox="0 0 16 16">
 							<path
-								d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
-							/>
-						</svg>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="16"
-							height="16"
-							fill="currentColor"
-							class="bi bi-list"
-							viewBox="0 0 16 16"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
-							/>
+								d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
 						</svg>
 					</div>
 				</div>
+
+				<div class="mobile-nav">
+					<ul class="nav-links mobile-links">
+						<li><a href="#destinations">DESTINATIONS</a></li>
+						<li><a href="#experiences">EXPERIENCES</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#gallery">GALLERY</a></li>
+					</ul>
+				</div>
 			</nav>
 
+			<div class="side-socials">
+				<a href="#">Fb</a>
+				<a href="#">Tw</a>
+				<a href="#">In</a>
+			</div>
+
 			<div class="container hero-content">
-				<h1 class="hero-title">EXPLORE<br />INDONESIA</h1>
+				<h1 class="hero-title">
+					<span>EXPLORE</span>
+					<span>INDONESIA</span>
+				</h1>
 				<a href="https://travelstart.if.ua/" class="main-btn">Start travelling</a>
 			</div>
 
 			<div class="bottom-info">
 				<div class="container">
-					<div class="info-overlay"> 
+					<div class="info-overlay">
 						<div class="info-card">
 							<span class="number">01</span>
 							<h5>Title here</h5>
@@ -94,26 +94,24 @@
 		<section id="destinations" class="details container">
 			<div class="detail-item">
 				<div class="detail-img rounded-img">
-					<img src="./images/walkway.webp" alt="Walkway" />
+					<img src="./images/walkway.webp" alt="Walkway" width="630px" height="460px" />
 				</div>
-				<h2>The walkways of Indonesia spellbind</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo
-					magna et libero mollis rhoncus.
-				</p>
-				<a href="https://www.andamanislands.com/" class="secondary-btn">Learn More</a>
+				<div class="detail-text">
+					<h2>The walkways of Indonesia spellbind</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+					<a href="#" class="secondary-btn">Learn More</a>
+				</div>
 			</div>
 
 			<div class="detail-item">
 				<div class="detail-img rounded-img">
-					<img src="./images/palm.webp" alt="Palm" />
+					<img src="./images/palm.webp" alt="Palm" width="630px" height="460px" />
 				</div>
-				<h2>Perfect beaches exude relaxation and fun</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo
-					magna et libero mollis rhoncus.
-				</p>
-				<a href="https://www.travelandleisure.com/most-relaxing-beach-in-the-world-11922804" class="secondary-btn">Learn More</a>
+				<div class="detail-text">
+					<h2>Perfect beaches exude relaxation and fun</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+					<a href="#" class="secondary-btn">Learn More</a>
+				</div>
 			</div>
 		</section>
 
@@ -124,45 +122,37 @@
 
 					<div class="slider-wrapper">
 						<div class="slider-arrow prev">
-							<svg
-								width="20"
-								height="20"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="3"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							>
+							<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+								stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M15 18l-6-6 6-6" />
 							</svg>
 						</div>
 
-						<div class="slide-main rounded-img">
-							<img src="./images/palm.webp" alt="Secret spot" />
+						<div class="slider">
+							<div class="slide rounded-img">
+								<img src="./images/palm.webp" alt="">
+							</div>
+							<div class="slide rounded-img active">
+								<img src="./images/walkway.webp" alt="">
+							</div>
+							<div class="slide rounded-img">
+								<img src="./images/chinaded.webp" alt="">
+							</div>
 						</div>
 
 						<div class="slider-arrow next">
-							<svg
-								width="20"
-								height="20"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="3"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							>
+							<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+								stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M9 18l6-6-6-6" />
 							</svg>
 						</div>
 					</div>
 
 					<div class="slider-dots">
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
 						<span class="dot active"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
 						<span class="dot"></span>
 					</div>
 				</div>
@@ -198,7 +188,7 @@
 		<section class="hero">
 			<div class="container hero__container">
 				<h1 class="hero__title">
-					Our hills and valleys are like nothing you’ve seen.
+					Our hills and valleys are like nothing you've seen.
 				</h1>
 				<p class="hero__text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
@@ -212,25 +202,27 @@
 		<section id="experiences" class="experience dark-bg text-center">
 			<div class="container">
 				<h2 class="experience-title">
-					Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.
+					Live a life like you wouldn't imagine, experience a life you wouldn't expect.
 				</h2>
-		
+
 				<div class="exp-item main-video">
 					<div class="exp-video rounded-img">
 						<img src="./images/broOnMoto.webp" alt="Moto" />
 						<div class="play-icon-pink"></div>
 					</div>
 				</div>
-		
+
 				<div class="exp-item side-video">
 					<div class="exp-video rounded-img small">
 						<img src="./images/scenery.webp" alt="Scenery" />
 						<div class="play-icon-white"></div>
 					</div>
 					<h4>In The Country</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
+						tempus.
+					</p>
 				</div>
-		
+
 				<div class="exp-item side-video">
 					<div class="exp-video rounded-img small">
 						<img src="./images/City.webp" alt="City" />
@@ -274,27 +266,29 @@
 		<section class="steps light-blue-bg">
 			<div class="container text-center">
 				<h2 class="section-title">Getting there</h2>
-		
+
 				<div class="step">
 					<div class="step-num">1</div>
 					<h3>Bookings your flights</h3>
 					<p>Lorem ipsum dolor set...</p>
-					<a href="https://www.booking.com/?aid=348858&label=gx-ua-booking-booking-sd-pzql&chal_t=1774194056620&force_referer=" class="show-more">Show more</a>
+					<a href="https://www.booking.com/?aid=348858&label=gx-ua-booking-booking-sd-pzql&chal_t=1774194056620&force_referer="
+						class="show-more">Show more</a>
 				</div>
-		
+
 				<div class="step">
 					<div class="step-num">2</div>
 					<h3>Choosing your hotel</h3>
 					<p>Lorem ipsum dolor set...</p>
 					<a href="https://www.choicehotels.com" class="show-more">Show more</a>
-					
+
 					<div class="step-video-container">
 						<div class="step-img rounded-img">
 							<img src="./images/bike.webp" alt="Bike" />
-							<div class="play-icon-white"></div> </div>
+							<div class="play-icon-white"></div>
+						</div>
 					</div>
 				</div>
-		
+
 				<div class="step">
 					<div class="step-num">3</div>
 					<h3>Planning your experiences</h3>
@@ -303,38 +297,36 @@
 				</div>
 			</div>
 		</section>
-				<div class="scroll-up">
-					<div class="arrow-up"></div>
-				</div>
-			</div>
-		</section>
 
 		<footer class="footer dark-bg text-center">
 			<div class="scroll-up">
 				<a href="#top" class="scroll-up__link">
-					<img src="./images/arrow.webp" alt="arrow up"/>
+					<img src="./images/arrow.webp" alt="arrow up" />
 				</a>
 			</div>
-				<div class="logo footer-logo">
-					<img src="./images/flower.webp" alt="" />
-					<span>EXPLORE<br />INDONESIA</span>
-				</div>
-
-				<ul class="footer-links">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Pricing</a></li>
-					<li><a href="#">Company</a></li>
-					<li><a href="#">Blog</a></li>
-				</ul>
-
-				<div class="socials">
-					<a href="https://www.facebook.com/profile.php?id=100070846271522" target="_blank">f</a>
-					<a href="https://www.linkedin.com/in/prepodobniy-undefined-97b0883a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">in</a>
-					<a href="https://www.google.com/intl/uk/chrome/" target="_blank">G</a>
-				</div>
-
-				<p class="copyright">Copyright © 2019</p>
+			<div class="logo footer-logo">
+				<img src="./images/flower.webp" alt="" />
+				<span>EXPLORE<br />INDONESIA</span>
 			</div>
+
+			<ul class="footer-links">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Company</a></li>
+				<li><a href="#">Blog</a></li>
+			</ul>
+
+			<div class="socials">
+				<a href="https://www.facebook.com/profile.php?id=100070846271522" target="_blank">f</a>
+				<a href="https://www.linkedin.com/in/prepodobniy-undefined-97b0883a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+					target="_blank">in</a>
+				<a href="https://www.google.com/intl/uk/chrome/" target="_blank">G</a>
+			</div>
+
+			<p class="copyright">Copyright © 2019</p>
 		</footer>
-	</body>
+
+	</main>
+</body>
+
 </html>
